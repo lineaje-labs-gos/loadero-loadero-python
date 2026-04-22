@@ -1,6 +1,20 @@
 [build-system]
-requires = ["setuptools>=43.0.0", "wheel"]
+requires = [
+    "setuptools>=43.0.0",
+    "wheel",
+]
 build-backend = "setuptools.build_meta"
 
 [tool.black]
 line-length = 80
+
+[project]
+version = "1.2.2+lineaje.1"
+maintainers = [
+    { name = "Lineaje DepFixer", email = "221268890+Lineaje-DepFixer@users.noreply.github.com" },
+]
+
+[project.urls]
+Homepage = "https://github.com/lineaje-labs-gos/loadero-loadero-python"
+Repository = "https://github.com/lineaje-labs-gos/loadero-loadero-python"
+Tracker = "https://github.com/lineaje-labs-gos/loadero-loadero-python/issues"
